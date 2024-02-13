@@ -16,10 +16,10 @@ export const ClientsSayView = () => {
                     </div>
                     <div className='flex mx-auto md:mx-0 md:justify-end pt-7 md:pt-0'>
                         <div>
-                            <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Register restaurant</span></button>
+                            <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Register restaurant</span></button>
                         </div>
                         <div className='ml-5'>
-                            <button className='shadow-md hover:bg-gray-100 p-4 rounded-lg active:bg-gray-200'><span>Download app</span></button>
+                            <button className='shadow-md hover:bg-gray-100 p-2 lg:p-4 rounded-lg active:bg-gray-200'><span>Download app</span></button>
                         </div>
                     </div>
                 </div>

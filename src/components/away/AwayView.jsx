@@ -18,7 +18,7 @@ export const AwayView = () => {
                         <span className='text-white text-[12px] '>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam</span>
                     </div>
                     <div className='pt-5'>
-                        <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Download app</span></button>
+                        <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Download app</span></button>
                     </div>
                 </div>
                 <div className='grid grid-cols-2 gap-6'>

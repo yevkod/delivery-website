@@ -15,10 +15,10 @@ export const DeliverView = () => {
             <div>
                 <div className='flex pt-8 justify-center sm:justify-end'>
                     <div>
-                        <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Download for iOS</span></button>
+                        <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Download for iOS</span></button>
                     </div>
                     <div className='ml-5'>
-                        <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Download for Android</span></button>
+                        <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Download for Android</span></button>
                     </div>
                 </div>
             </div>

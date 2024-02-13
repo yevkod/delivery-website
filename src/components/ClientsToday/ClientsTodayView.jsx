@@ -14,7 +14,7 @@ export const ClientsTodayView = () => {
                         <div className='text-center lg:text-start'><span className='text-[12px] text-white'>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam neque ultrices.</span></div>
                     </div>
                     <div className='mx-auto lg:mx-0 pt-8'>
-                        <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Register restaurant</span></button>
+                        <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Register restaurant</span></button>
                     </div>
                 </div>
                 <div className='hidden lg:flex'>
