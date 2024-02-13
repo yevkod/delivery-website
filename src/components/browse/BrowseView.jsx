@@ -31,11 +31,11 @@ export const BrowseView = () => {
                         <div><div className='text-[2rem] font-bold'>30m<span className='text-[#FF5634]'>+</span></div><span className='text-[18px] text-[#656565]'>Successful deliveries</span></div>
                     </div>
                 </div>
-                <div className='pt-8 md:pt-0 relative flex mx-auto'>
+                <div className='pt-8 md:pt-0 relative flex mx-auto max-w-[100%]'>
                     <div>
                         <img className='object-contain' src={bg_browse} alt='bg_browse' />
                     </div>
-                    <div className='hidden lg:flex absolute top-[16%] left-[-20%] w-[20em]'>
+                    <div className='hidden lg:flex absolute top-[16%] left-[-5%] xl:w-[23rem] xl:left-[-25%] lg:w-[18rem] max-w-[100%]'>
                         <img className='object-contain w-[100%]' src={iphone_browse} alt='iphone_browse' />
                     </div>
                 </div>
