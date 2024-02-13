@@ -10,9 +10,9 @@ export const AwayView = () => {
     return (
         <div className='flex bg-black items-center justify-center overflow-hidden mx-auto max-w-[90rem]'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
-                <div className='flex flex-col items-start justify-center'>
+                <div className='flex flex-col items-start justify-center p-3 lg:p-0'>
                     <div>
-                        <span className='text-white leading-[55px] text-[56px] font-bold'>A delicious burger is <br></br> one tap away!</span>
+                        <span className='text-white leading-[55px] text-[2rem] md:text-[3rem] font-bold'>A delicious burger is <br></br> one tap away!</span>
                     </div>
                     <div className='pt-5'>
                         <span className='text-white text-[12px] '>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam</span>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { NavbarView } from './components/navbar/Navbar';
 import { BrowseView } from './components/browse/BrowseView';
@@ -15,9 +15,15 @@ import { FooterView } from './components/Footer/FooterView';
 
 
 function App() {
+  const [menu, setMenu] = useState(false);
+
+  const handleMenu = () => {
+    setMenu(!menu);
+  }
+
   return (
     <>
-      <NavbarView />
+      <NavbarView menu={menu}/>
       <BrowseView />
       <TrustedView />
       <WorksView />

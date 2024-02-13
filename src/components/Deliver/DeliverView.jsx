@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png';
 
 export const DeliverView = () => {
     return (
-        <div className='grid grid-cols-1 sm:grid-cols-2 justify-center max-w-[90rem] mx-auto pt-[45px] pb-[65px] border-b-2 border-[#CACACA]'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 justify-center max-w-[90rem] p-5 mx-auto pt-[45px] pb-[65px] border-b-2 border-[#CACACA]'>
             <div className='flex flex-col justify-center md:justify-start'>
                 <div className='flex justify-center md:justify-start'>
                     <img src={logo} alt='logo' />

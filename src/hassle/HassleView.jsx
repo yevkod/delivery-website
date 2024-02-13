@@ -6,6 +6,7 @@ import order from '../assets/order.png';
 import burger from '../assets/burger-courier.png';
 import image_burgers from '../assets/image-burgers.png';
 import busket from '../assets/busket.png';
+import location from '../assets/geo.png';
 
 export const HassleView = () => {
     return (
@@ -19,7 +20,7 @@ export const HassleView = () => {
                         <img src={maps} alt='maps' />
                     </div>
                 </div>
-                <div className='flex flex-col xl:pl-[60px] justify-center'>
+                <div className='flex flex-col xl:pl-[60px] p-5 md:p-0 justify-center'>
                     <div className='text-center md:text-left pt-9 md:pt-0'>
                         <span className='text-[44px] font-bold leading-[40px]'>Hassle-free restaurant <br></br> management</span>
                     </div>
@@ -56,10 +57,10 @@ export const HassleView = () => {
                     </div>
                 </div>
             </div>
-            <div className='grid grid-cols-1 sm:grid-cols-2 pt-48'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 p-5 lg:pt-48'>
                 <div className='flex flex-col justify-center'>
                     <div>
-                        <span className='text-[44px] font-bold leading-[40px]'>Hassle-free restaurant <br></br> management</span>
+                        <span className='text-[44px] font-bold leading-[40px]'>Super convenient for <br></br> customers too</span>
                     </div>
                     <div className='max-w-[480px] pt-5'>
                         <span className='text-[#656565]'>Bibendum consectetur eu quis dignissim purus quis felis urna in enim elementum tellus amet ullamcorper ante in sollicitudin sollicitudin pellentesque</span>
@@ -67,11 +68,11 @@ export const HassleView = () => {
                     <div className='flex flex-col pt-5 gap-6'>
                         <div className='flex'>
                             <div className='max-w-[200px]'>
-                                <img src={order} alt='order' />
+                                <img src={busket} alt='busket' />
                             </div>
                             <div className='flex flex-col'>
                                 <div>
-                                    <span className='text-[24px]'>Order management</span>
+                                    <span className='text-[24px]'>Order from app</span>
                                 </div>
                                 <div className='flex max-w-[450px]'>
                                     <span className='text-[13px] text-[#656565]'>Aliquam vestibulum morbi blandit cursus risus atomol ultrices proin gravida hendrerit lectusa.</span>
@@ -80,7 +81,7 @@ export const HassleView = () => {
                         </div>
                         <div className='flex'>
                             <div className='max-w-[200px]'>
-                                <img src={pos} alt='pos' />
+                                <img src={location} alt='location' />
                             </div>
                             <div className='flex flex-col'>
                                 <div>

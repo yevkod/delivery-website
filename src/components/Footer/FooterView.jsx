@@ -3,7 +3,7 @@ import { footerArray } from './FooterArray'
 
 export const FooterView = () => {
     return (
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-[90px] max-w-[90rem] mx-auto'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 pt-[90px] pb-[90px] max-w-[90rem] mx-auto'>
             <div>
                 <div className='text-center sm:text-start'>
                     <span className='text-[20px] font-medium '>Menu</span>
@@ -17,7 +17,7 @@ export const FooterView = () => {
                 </ul>
             </div>
             <div>
-                <div className='text-center sm:text-start pt-8 md:pt-0'>
+                <div className='text-center pt-8 sm:pt-0 sm:text-start'>
                     <span className='text-[20px] font-medium'>Utility pages</span>
                 </div>
                 <ul className='pt-8 text-center sm:text-start'>

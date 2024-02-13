@@ -11,7 +11,7 @@ export const BrowseView = () => {
                         <span className='text-[#FF5634] text-[18px] font-medium'>Food Delivery Service</span>
                     </div>
                     <div className='pt-6'>
-                        <span className='font-bold text-[62px] leading-[55px]'>Delicious food <br></br>at your fingertips</span>
+                        <span className='font-bold text-[3rem] leading-[55px]'>Delicious food <br></br>at your fingertips</span>
                     </div>
                     <div className='max-w-[556px] pt-6'>
                         <span className='text-[12px]'>A ultricies eget condimentum sed faucibus enim maecenas variusd dolor sitegestas hendrerit et maecenas habitant mattis</span>
@@ -26,16 +26,16 @@ export const BrowseView = () => {
                     </div>
                     <div></div>
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 mx-auto'>
-                        <div><div className='text-[56px] font-bold'>10m<span className='text-[#FF5634]'>+</span></div><span className='text-[18px] text-[#656565]'>Happy customers</span></div>
-                        <div><div className='text-[56px] font-bold'>500k<span className='text-[#FF5634]'>+</span></div><span className='text-[18px] text-[#656565]'>Restaurants available</span></div>
-                        <div><div className='text-[56px] font-bold'>30m<span className='text-[#FF5634]'>+</span></div><span className='text-[18px] text-[#656565]'>Successful deliveries</span></div>
+                        <div><div className='text-[2rem] font-bold'>10m<span className='text-[#FF5634]'>+</span></div><span className='text-[18px] text-[#656565]'>Happy customers</span></div>
+                        <div><div className='text-[2rem] font-bold'>500k<span className='text-[#FF5634]'>+</span></div><span className='text-[18px] text-[#656565]'>Restaurants available</span></div>
+                        <div><div className='text-[2rem] font-bold'>30m<span className='text-[#FF5634]'>+</span></div><span className='text-[18px] text-[#656565]'>Successful deliveries</span></div>
                     </div>
                 </div>
-                <div className='relative flex mx-auto'>
+                <div className='pt-8 md:pt-0 relative flex mx-auto'>
                     <div>
                         <img className='object-contain' src={bg_browse} alt='bg_browse' />
                     </div>
-                    <div className='absolute flex top-[16%] left-[-20%] w-[20em]'>
+                    <div className='hidden lg:flex absolute top-[16%] left-[-20%] w-[20em]'>
                         <img className='object-contain w-[100%]' src={iphone_browse} alt='iphone_browse' />
                     </div>
                 </div>

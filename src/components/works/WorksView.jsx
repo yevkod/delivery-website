@@ -5,7 +5,7 @@ import moto_order from '../../assets/moto-order.png';
 
 export const WorksView = () => {
     return (
-        <div className='flex flex-col items-center justify-center mx-0 pb-[80px]'>
+        <div className='flex flex-col items-center justify-center p-3 md:p-0 mx-0 pb-[80px]'>
             <div className='flex items-center justify-center flex-col'>
                 <div><span className='text-[#FF5634] text-[18px] uppercase'>How it works</span></div>
                 <div><span className='flex text-[44px] font-bold text-center'>Our simple, yet efficient <br></br> delivery system</span></div>
