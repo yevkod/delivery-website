@@ -2,7 +2,7 @@ import React from 'react'
 
 export const BurgerMenuView = () => {
     return (
-        <div className='flex z-50 flex-col py-10 px-10 shadow-md'>
+        <div className='flex z-50 flex-col py-10 px-10 shadow-md rounded-lg'>
             <ul className=''>
                 <li className='hover:underline text-center cursor-pointer text-gray-900 text-[18px] font-medium'>Home</li>
                 <li className='hover:underline text-center cursor-pointer text-gray-900 text-[18px] font-medium'>About</li>
