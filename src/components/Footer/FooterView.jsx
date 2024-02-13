@@ -33,9 +33,9 @@ export const FooterView = () => {
                 <div className='pb-8 text-center sm:text-start pt-8 sm:pt-0'>
                     <span className='text-[20px] font-medium'>Available in</span>
                 </div>
-                <div className='grid grid-cols-1 sm:grid-cols-2 gap-10'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 '>
                     {footerArray.map((item) => (
-                        <div className='flex justify-center md:justify-start gap-4'>
+                        <div className='flex justify-center md:justify-start gap-4 last:mr-8' >
                             <div><img src={item.icon} alt={item.title} /></div>
                             <div className='flex items-center text-[18px font-medium]'>{item.title}</div>
                         </div>
