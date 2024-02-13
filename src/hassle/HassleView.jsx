@@ -12,7 +12,8 @@ export const HassleView = () => {
     return (
         <div className='pt-[45px] pb-[45px] max-w-[1430px] mx-auto'>
             <div className='grid grid-cols-1 sm:grid-cols-2'>
-                <div className='flex relative bg-[#FF5634] rounded-3xl w-[18rem] mx-auto lg:mx-0 h-[43rem] lg:w-[37rem] max-w-[768px]'>
+
+                <div className='flex relative bg-[#FF5634] max-w-[100%] rounded-3xl w-[18rem] mx-auto lg:mx-0 h-[43rem] lg:w-[37rem]'>
                     <div className='flex absolute top-[33%] left-[35%] z-20'>
                         <img src={courier} alt='courier' />
                     </div>
@@ -21,6 +22,7 @@ export const HassleView = () => {
                     </div>
                 </div>
                 <div className='flex flex-col xl:pl-[60px] p-5 md:p-0 justify-center'>
+
                     <div className='text-center md:text-left pt-9 md:pt-0'>
                         <span className='text-[44px] font-bold leading-[40px]'>Hassle-free restaurant <br></br> management</span>
                     </div>
@@ -41,7 +43,7 @@ export const HassleView = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='flex'>
+                        <div className='flex max-w-[100%]'>
                             <div className='max-w-[200px]'>
                                 <img src={pos} alt='pos' />
                             </div>
@@ -94,7 +96,7 @@ export const HassleView = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex relative bg-[#FF5634] mt-9 rounded-3xl w-[18rem] mx-auto lg:mx-0 h-[43rem] lg:w-[37rem] max-w-[768px]'>
+                <div className='flex relative bg-[#FF5634] max-w-[100%] mt-9 rounded-3xl w-[18rem] mx-auto lg:mx-0 h-[43rem] lg:w-[37rem]'>
                     <div className='flex absolute top-[33%] left-[12%] z-20'>
                         <img src={burger} alt='burger' />
                     </div>

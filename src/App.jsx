@@ -12,18 +12,20 @@ import { ClientsSayView } from './components/ClientsSay/ClientsSayView';
 import { ClientsTodayView } from './components/ClientsToday/ClientsTodayView';
 import { DeliverView } from './components/Deliver/DeliverView';
 import { FooterView } from './components/Footer/FooterView';
+import { BurgerMenuView } from './components/burgerMenu/burgerMenuView';
 
 
 function App() {
   const [menu, setMenu] = useState(false);
 
-  const handleMenu = () => {
-    setMenu(!menu);
-  }
-
   return (
     <>
-      <NavbarView menu={menu}/>
+      {menu && (
+        <div className='flex lg:hidden fixed z-[50] top-[119px] right-0 flex-col shadow-md bg-white'>
+          <BurgerMenuView />
+        </div>
+      )}
+      <NavbarView menu={menu} setMenu={setMenu} />
       <BrowseView />
       <TrustedView />
       <WorksView />
@@ -35,6 +37,7 @@ function App() {
       <ClientsTodayView />
       <DeliverView />
       <FooterView />
+
     </>
   );
 }
