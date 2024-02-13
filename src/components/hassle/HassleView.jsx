@@ -1,12 +1,12 @@
 import React from 'react';
-import courier from '../assets/courier.png';
-import maps from '../assets/maps.png';
-import pos from '../assets/pos.png';
-import order from '../assets/order.png';
-import burger from '../assets/burger-courier.png';
-import image_burgers from '../assets/image-burgers.png';
-import busket from '../assets/busket.png';
-import location from '../assets/geo.png';
+import courier from '../../assets/courier.png';
+import maps from '../../assets/maps.png';
+import pos from '../../assets/pos.png';
+import order from '../../assets/order.png';
+import burger from '../../assets/burger-courier.png';
+import image_burgers from '../../assets/image-burgers.png';
+import busket from '../../assets/busket.png';
+import location from '../../assets/geo.png';
 
 export const HassleView = () => {
     return (

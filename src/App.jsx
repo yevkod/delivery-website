@@ -7,7 +7,7 @@ import { WorksView } from './components/works/WorksView';
 import { GreatView } from './components/great/GreatView';
 import { AwayView } from './components/away/AwayView';
 import { FeaturesView } from './components/features/FeaturesView';
-import { HassleView } from './hassle/HassleView';
+import { HassleView } from './components/hassle/HassleView';
 import { ClientsSayView } from './components/ClientsSay/ClientsSayView';
 import { ClientsTodayView } from './components/ClientsToday/ClientsTodayView';
 import { DeliverView } from './components/Deliver/DeliverView';
@@ -37,7 +37,6 @@ function App() {
       <ClientsTodayView />
       <DeliverView />
       <FooterView />
-
     </>
   );
 }
