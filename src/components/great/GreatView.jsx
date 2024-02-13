@@ -9,10 +9,10 @@ import iphone_why from '../../assets/iphone-why.png';
 export const GreatView = () => {
     return (
         <div className='flex flex-col items-center justify-center p-5 lg:p-20'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-24 md:gap-52'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-24 md:gap-52'>
                 <div className='flex flex-col justify-center'>
-                    <div><span className='text-[2rem] font-bold leading-[50px]'>Learn why Deliver X is <br></br> great for your restaurant</span></div>
-                    <div className='pt-5  max-w-[541px]'><span className='text-[#656565]'>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam</span></div>
+                    <div className='text-center lg:text-left'><span className='text-[2rem] font-bold leading-[50px]'>Learn why Deliver X is <br></br> great for your restaurant</span></div>
+                    <div className='pt-5  max-w-[541px] text-center lg:text-left'><span className='text-[#656565]'>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam</span></div>
                     <div className='grid grid-cols-1 sm:grid-cols-2 gap-12 pt-8'>
                         <div className='flex flex-col items-center sm:items-baseline'>
                             <div className='flex'>
@@ -65,7 +65,7 @@ export const GreatView = () => {
                     <div className='absolute top-[10%] left-[-20%] z-10'> <img src={iphone_why} alt='iphone_why' /></div>
                 </div>
             </div>
-            <div className='flex pt-12 lg:pt-8'>
+            <div className='flex pt-12 lg:pt-[5rem]'>
                 <div>
                     <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Register restaurant</span></button>
                 </div>
