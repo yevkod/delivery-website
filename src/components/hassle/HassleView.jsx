@@ -11,8 +11,7 @@ import location from '../../assets/geo.png';
 export const HassleView = () => {
     return (
         <div className='pt-[45px] pb-[45px] max-w-[1430px] mx-auto'>
-            <div className='grid grid-cols-1 sm:grid-cols-2'>
-
+            <div className='grid grid-cols-1 lg:p-5 lg:gap-5 sm:grid-cols-2'>
                 <div className='flex relative bg-[#FF5634] max-w-[100%] rounded-3xl w-[18rem] mx-auto lg:mx-0 h-[43rem] lg:w-[37rem]'>
                     <div className='flex absolute top-[33%] left-[35%] z-20'>
                         <img src={courier} alt='courier' />

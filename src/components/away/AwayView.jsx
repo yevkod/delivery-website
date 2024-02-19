@@ -9,7 +9,7 @@ import img_sixth from '../../assets/img-sixth-away.png';
 export const AwayView = () => {
     return (
         <div className='flex bg-black items-center justify-center overflow-hidden mx-auto'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-10 lg:p-5'>
                 <div className='flex flex-col items-start justify-center p-3 lg:p-0'>
                     <div>
                         <span className='text-white leading-[55px] text-[2rem] md:text-[3rem] font-bold'>A delicious burger is <br></br> one tap away!</span>
