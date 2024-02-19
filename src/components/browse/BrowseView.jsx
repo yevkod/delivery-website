@@ -4,7 +4,7 @@ import iphone_browse from '../../assets/iphone-browse.png';
 
 export const BrowseView = () => {
     return (
-        <div className='flex items-center justify-center max-w-[1440px] mx-auto'>
+        <div className='flex items-center justify-center max-w-[90rem] mx-auto'>
             <div className='grid grid-cols-1 place-content-center mt-[120px] p-4 lg:p-0 md:grid-cols-2 w-full justify-center items-center'>
                 <div className='flex flex-col items-start justify-center mx-auto'>
                     <div>

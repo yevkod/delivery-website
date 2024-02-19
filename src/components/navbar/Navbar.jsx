@@ -10,7 +10,7 @@ export const NavbarView = ({ menu, setMenu }) => {
 
     return (
         <div className='flex w-full fixed z-[10000] bg-white shadow-md justify-around h-[120px] items-center'>
-            <div className='flex w-full justify-between items-center max-w-[80rem]'>
+            <div className='flex w-full justify-between items-center p-5'>
                 <div className='p-5 lg:p-0 cursor-pointer w-[10rem]'>
                     <img src={logo} alt='logo' />
                 </div>
@@ -21,7 +21,7 @@ export const NavbarView = ({ menu, setMenu }) => {
                     <li className='hover:underline cursor-pointer text-[18px] font-medium'>Pages</li>
                     <li className='hover:underline cursor-pointer text-[18px] font-medium'>Cart(0)</li>
                 </ul>
-                <div className='flex lg:hidden mr-5 justify-end w-10' onClick={handleMenu}>
+                <div className='flex cursor-pointer lg:hidden mr-5 justify-end w-10' onClick={handleMenu}>
                     <img src={burger} alt='burger' />
                 </div>
                 <div className='hidden lg:flex gap-5 md:gap-0'>

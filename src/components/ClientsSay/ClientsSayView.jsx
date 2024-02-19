@@ -3,7 +3,7 @@ import { clientsSayArray } from './ClientsSayArray'
 
 export const ClientsSayView = () => {
     return (
-        <div className='flex bg-[#FAFAFA] md:mt-[90px] mx-auto w-full justify-center p-5 pt-[90px] pb-[90px] max-w-[90rem]'>
+        <div className='flex bg-[#FAFAFA] md:mt-[90px] mx-auto w-full justify-center p-5 pt-[90px] pb-[90px]'>
             <div>
                 <div className='grid grid-cols-1 md:grid-cols-2 items-end'>
                     <div className='flex flex-col'>

@@ -4,7 +4,7 @@ import img_2 from '../../assets/iphone-browse.png';
 
 export const ClientsTodayView = () => {
     return (
-        <div className='flex justify-center relative bg-black w-full p-5 lg:p-48 mx-auto max-w-[90rem]'>
+        <div className='flex justify-center relative bg-black w-full p-5 lg:p-48 mx-auto'>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                 <div className='flex lg:pr-20 flex-col'>
                     <div>

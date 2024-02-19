@@ -8,7 +8,7 @@ import img_sixth from '../../assets/img-sixth-away.png';
 
 export const AwayView = () => {
     return (
-        <div className='flex bg-black items-center justify-center overflow-hidden mx-auto max-w-[90rem]'>
+        <div className='flex bg-black items-center justify-center overflow-hidden mx-auto'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
                 <div className='flex flex-col items-start justify-center p-3 lg:p-0'>
                     <div>

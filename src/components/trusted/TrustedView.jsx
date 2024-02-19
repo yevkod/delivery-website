@@ -9,7 +9,7 @@ export const TrustedView = () => {
             <div>
                 <span className='text-[#656565] text-[20px]'>Trusted by 5,000+ restaurants around the world</span>
             </div>
-            <div className='flex pt-8 max-w-[1300px]'>
+            <div className='flex pt-8 w-full'>
                 <Marquee autoFill play>
                     <div className='flex gap-10 first:pr-10'>
                         {trustedArray.map((item) => (
