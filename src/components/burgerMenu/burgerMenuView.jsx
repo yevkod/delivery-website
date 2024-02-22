@@ -1,14 +1,24 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
-export const BurgerMenuView = () => {
+export const BurgerMenuView = ({setMenu}) => {
+
+    const handleMenu = () => {
+        setMenu(false);
+    }
+
     return (
         <div className='flex z-50 flex-col py-10 px-10 shadow-md rounded-lg'>
-            <ul className=''>
-                <li className='hover:underline text-center cursor-pointer text-gray-900 text-[18px] font-medium'>Home</li>
-                <li className='hover:underline text-center cursor-pointer text-gray-900 text-[18px] font-medium'>About</li>
-                <li className='hover:underline text-center cursor-pointer text-gray-900 text-[18px] font-medium'>Pricing</li>
-                <li className='hover:underline text-center cursor-pointer text-gray-900 text-[18px] font-medium'>Pages</li>
-                <li className='hover:underline text-center cursor-pointer text-gray-900 text-[18px] font-medium'>Cart(0)</li>
+            <ul className='text-center'>
+                <li className='hover:underline cursor-pointer text-[18px] font-medium'><Link to="browseView" smooth={true} duration={500} onClick={handleMenu}>Home</Link></li>
+                <li className='hover:underline cursor-pointer text-[18px] font-medium'>
+                    <Link to="worksView" smooth={true} duration={500} onClick={handleMenu}>About</Link></li>
+                <li className='hover:underline cursor-pointer text-[18px] font-medium'>
+                    <Link to="greatView" smooth={true} duration={500} onClick={handleMenu}>Why Great</Link></li>
+                <li className='hover:underline cursor-pointer text-[18px] font-medium'>
+                    <Link to="featuresView" smooth={true} duration={500} onClick={handleMenu}>Features</Link></li>
+                <li className='hover:underline cursor-pointer text-[18px] font-medium'>
+                    <Link to="clientsSayView" smooth={true} duration={500} onClick={handleMenu}>Reviews</Link></li>
             </ul>
             <div className='flex flex-col pt-5 gap-5'>
                 <div>

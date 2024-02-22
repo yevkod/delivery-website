@@ -29,7 +29,7 @@ export const HassleView = () => {
                         <span className='text-[#656565]'>Bibendum consectetur eu quis dignissim purus quis felis urna in enim elementum tellus amet ullamcorper ante in sollicitudin sollicitudin pellentesque</span>
                     </div>
                     <div className='flex flex-col pt-5 gap-6'>
-                        <div className='flex'>
+                        <div className='flex hover:scale-110 transition-all'>
                             <div className='max-w-[200px]'>
                                 <img src={order} alt='order' />
                             </div>
@@ -42,7 +42,7 @@ export const HassleView = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='flex max-w-[100%]'>
+                        <div className='flex max-w-[100%] hover:scale-110 transition-all'>
                             <div className='max-w-[200px]'>
                                 <img src={pos} alt='pos' />
                             </div>
@@ -67,7 +67,7 @@ export const HassleView = () => {
                         <span className='text-[#656565]'>Bibendum consectetur eu quis dignissim purus quis felis urna in enim elementum tellus amet ullamcorper ante in sollicitudin sollicitudin pellentesque</span>
                     </div>
                     <div className='flex flex-col pt-5 gap-6'>
-                        <div className='flex'>
+                        <div className='flex hover:scale-110 transition-all'>
                             <div className='max-w-[200px]'>
                                 <img src={busket} alt='busket' />
                             </div>
@@ -80,7 +80,7 @@ export const HassleView = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='flex'>
+                        <div className='flex hover:scale-110 transition-all'>
                             <div className='max-w-[200px]'>
                                 <img src={location} alt='location' />
                             </div>

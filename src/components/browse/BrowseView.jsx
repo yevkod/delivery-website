@@ -18,17 +18,17 @@ export const BrowseView = () => {
                     </div>
                     <div className='flex pt-8'>
                         <div>
-                            <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Register restaurant</span></button>
+                            <button className='bg-[#FF5634] hover:scale-110 transition-all hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Register restaurant</span></button>
                         </div>
                         <div className='ml-5'>
-                            <button className='shadow-md hover:bg-gray-100 p-2 lg:p-4 rounded-lg active:bg-gray-200'><span>Download app</span></button>
+                            <button className='shadow-md hover:scale-110 transition-all hover:bg-gray-100 p-2 lg:p-4 rounded-lg active:bg-gray-200'><span>Download app</span></button>
                         </div>
                     </div>
                     <div></div>
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-8 pt-8 mx-auto'>
-                        <div><div className='text-[2rem] font-bold'>10m<span className='text-[#FF5634]'>+</span></div><span className='text-[18px] text-[#656565]'>Happy customers</span></div>
-                        <div><div className='text-[2rem] font-bold'>500k<span className='text-[#FF5634]'>+</span></div><span className='text-[18px] text-[#656565]'>Restaurants available</span></div>
-                        <div><div className='text-[2rem] font-bold'>30m<span className='text-[#FF5634]'>+</span></div><span className='text-[18px] text-[#656565]'>Successful deliveries</span></div>
+                        <div className='hover:scale-110 transition-all'><div className='text-[2rem] font-bold'>10m<span className='text-[#FF5634]'>+</span></div><span className='text-[18px] text-[#656565]'>Happy customers</span></div>
+                        <div className='hover:scale-110 transition-all'><div className='text-[2rem] font-bold'>500k<span className='text-[#FF5634]'>+</span></div><span className='text-[18px] text-[#656565]'>Restaurants available</span></div>
+                        <div className='hover:scale-110 transition-all'><div className='text-[2rem] font-bold'>30m<span className='text-[#FF5634]'>+</span></div><span className='text-[18px] text-[#656565]'>Successful deliveries</span></div>
                     </div>
                 </div>
                 <div className='pt-8 md:pt-0 relative flex mx-auto max-w-[100%]'>

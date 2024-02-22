@@ -14,7 +14,7 @@ export const GreatView = () => {
                     <div className='text-center lg:text-left'><span className='text-[2rem] font-bold leading-[50px]'>Learn why Deliver X is <br></br> great for your restaurant</span></div>
                     <div className='pt-5  max-w-[541px] text-center lg:text-left'><span className='text-[#656565]'>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam</span></div>
                     <div className='grid grid-cols-1 sm:grid-cols-2 gap-12 pt-8'>
-                        <div className='flex flex-col items-center sm:items-baseline'>
+                        <div className='flex flex-col items-center sm:items-baseline hover:scale-110 transition-all'>
                             <div className='flex'>
                                 <img className='flex justify-center' src={lightning} alt='lightning' />
                             </div>
@@ -25,34 +25,34 @@ export const GreatView = () => {
                                 <span className='text-[#656565]'>Lorem ipsum dolor sit amet consecte</span>
                             </div>
                         </div>
-                        <div className='flex flex-col items-center sm:items-baseline'>
+                        <div className='flex flex-col items-center sm:items-baseline hover:scale-110 transition-all'>
                             <div>
                                 <img src={approve} alt='approve' />
                             </div>
                             <div>
-                                <span className='text-[22px] font-medium'>Fast deliveries</span>
+                                <span className='text-[22px] font-medium'>Certified riders</span>
                             </div>
                             <div>
                                 <span className='text-[#656565]'>Lorem ipsum dolor sit amet consecte</span>
                             </div>
                         </div>
-                        <div className='flex flex-col items-center sm:items-baseline'>
+                        <div className='flex flex-col items-center sm:items-baseline hover:scale-110 transition-all'>
                             <div>
                                 <img src={cash} alt='cash' />
                             </div>
                             <div>
-                                <span className='text-[22px] font-medium'>Fast deliveries</span>
+                                <span className='text-[22px] font-medium'>Instant payments</span>
                             </div>
                             <div>
                                 <span className='text-[#656565]'>Lorem ipsum dolor sit amet consecte</span>
                             </div>
                         </div>
-                        <div className='flex flex-col items-center sm:items-baseline'>
+                        <div className='flex flex-col items-center sm:items-baseline hover:scale-110 transition-all'>
                             <div>
                                 <img src={wallet} alt='wallet' />
                             </div>
                             <div>
-                                <span className='text-[22px] font-medium'>Fast deliveries</span>
+                                <span className='text-[22px] font-medium'>Low fees</span>
                             </div>
                             <div>
                                 <span className='text-[#656565]'>Lorem ipsum dolor sit amet consecte</span>
@@ -67,10 +67,10 @@ export const GreatView = () => {
             </div>
             <div className='flex pt-12 lg:pt-[5rem]'>
                 <div>
-                    <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Register restaurant</span></button>
+                    <button className='bg-[#FF5634] hover:scale-110 transition-all hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Register restaurant</span></button>
                 </div>
                 <div className='ml-5'>
-                    <button className='shadow-md hover:bg-gray-100 p-2 lg:p-4 rounded-lg active:bg-gray-200'><span>Download app</span></button>
+                    <button className='shadow-md hover:scale-110 transition-all hover:bg-gray-100 p-2 lg:p-4 rounded-lg active:bg-gray-200'><span>Download app</span></button>
                 </div>
             </div>
         </div>

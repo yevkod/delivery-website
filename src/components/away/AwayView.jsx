@@ -18,19 +18,19 @@ export const AwayView = () => {
                         <span className='text-white text-[12px] '>Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam</span>
                     </div>
                     <div className='pt-5'>
-                        <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Download app</span></button>
+                        <button className='bg-[#FF5634] hover:scale-110 transition-all hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Download app</span></button>
                     </div>
                 </div>
                 <div className='grid grid-cols-2 gap-6'>
                     <div className='grid grid-rows-1 gap-6'>
-                        <div><img src={img_first} alt='img_first' /></div>
-                        <div><img src={img_second} alt='img_second' /></div>
-                        <div><img src={img_third} alt='img_third' /></div>
+                        <div className='hover:scale-110 transition-all'><img src={img_first} alt='img_first' /></div>
+                        <div className='hover:scale-110 transition-all'><img src={img_second} alt='img_second' /></div>
+                        <div className='hover:scale-110 transition-all'><img src={img_third} alt='img_third' /></div>
                     </div>
                     <div className='grid grid-rows-1 gap-6'>
-                        <div><img src={img_fourth} alt='img_fourth' /></div>
-                        <div><img src={img_fifth} alt='img_second' /></div>
-                        <div><img src={img_sixth} alt='img_sixth' /></div>
+                        <div className='hover:scale-110 transition-all'><img src={img_fourth} alt='img_fourth' /></div>
+                        <div className='hover:scale-110 transition-all'><img src={img_fifth} alt='img_second' /></div>
+                        <div className='hover:scale-110 transition-all'><img src={img_sixth} alt='img_sixth' /></div>
                     </div>
                 </div>
             </div>

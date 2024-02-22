@@ -16,16 +16,16 @@ export const ClientsSayView = () => {
                     </div>
                     <div className='flex mx-auto md:mx-0 md:justify-end pt-7 md:pt-0'>
                         <div>
-                            <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Register restaurant</span></button>
+                            <button className='bg-[#FF5634] hover:scale-110 transition-all hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Register restaurant</span></button>
                         </div>
                         <div className='ml-5'>
-                            <button className='shadow-md hover:bg-gray-100 p-2 lg:p-4 rounded-lg active:bg-gray-200'><span>Download app</span></button>
+                            <button className='shadow-md hover:scale-110 transition-all hover:bg-gray-100 p-2 lg:p-4 rounded-lg active:bg-gray-200'><span>Download app</span></button>
                         </div>
                     </div>
                 </div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 pt-12'>
                     {clientsSayArray.map((item) => (
-                        <div className='bg-white rounded-2xl max-w-[389px] p-9 '>
+                        <div className='bg-white rounded-2xl max-w-[389px] p-9 hover:scale-110 transition-all'>
                             <div className='flex'>
                                 <div>
                                     <img src={item.icon} alt={item.name} />

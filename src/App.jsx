@@ -22,20 +22,20 @@ function App() {
     <>
       {menu && (
         <div className='flex lg:hidden fixed rounded-lg z-[50] top-[119px] right-0 flex-col shadow-md bg-white'>
-          <BurgerMenuView />
+          <BurgerMenuView setMenu={setMenu} />
         </div>
       )}
       <NavbarView menu={menu} setMenu={setMenu} />
-      <BrowseView />
-      <TrustedView />
-      <WorksView />
-      <GreatView />
-      <AwayView />
-      <FeaturesView />
-      <HassleView />
-      <ClientsSayView />
-      <ClientsTodayView />
-      <DeliverView />
+      <div id='browseView'><BrowseView /></div>
+      <div id='trustedView'><TrustedView /></div>
+      <div id='worksView'><WorksView /></div>
+      <div id='greatView'><GreatView /></div>
+      <div id='awayView'><AwayView /></div>
+      <div id='featuresView'><FeaturesView /></div>
+      <div id='hassleView'><HassleView /></div>
+      <div id='clientsSayView'><ClientsSayView /></div>
+      <div id='clientsTodayView'><ClientsTodayView /></div>
+      <div id='deliverView'><DeliverView /></div>
       <FooterView />
     </>
   );

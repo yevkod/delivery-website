@@ -18,7 +18,7 @@ export const FeaturesView = () => {
             </div>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-28 pt-12'>
                 {featuresArray.map((item) => (
-                    <div className='max-w-[350px]'>
+                    <div className='max-w-[350px] hover:scale-110 transition-all'>
                         <div className='flex items-center justify-center'><img src={item.icon} alt={item.title} /></div>
                         <div className='flex items-center justify-center pt-5'><span className='text-[28px] font-medium'>{item.title}</span></div>
                         <div className='flex items-center justify-center text-center pt-5 text-[#656565]'><span>{item.description}</span></div>
@@ -27,10 +27,10 @@ export const FeaturesView = () => {
             </div>
             <div className='flex pt-8'>
                 <div>
-                    <button className='bg-[#FF5634] hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Register restaurant</span></button>
+                    <button className='bg-[#FF5634] hover:scale-110 transition-all hover:bg-[#f76447] shadow-md p-2 lg:p-4 rounded-lg active:bg-[#e15c42]'><span className='text-[#FFF]'>Register restaurant</span></button>
                 </div>
                 <div className='ml-5'>
-                    <button className='shadow-md hover:bg-gray-100 p-2 lg:p-4 rounded-lg active:bg-gray-200'><span>Download app</span></button>
+                    <button className='shadow-md hover:scale-110 transition-all hover:bg-gray-100 p-2 lg:p-4 rounded-lg active:bg-gray-200'><span>Download app</span></button>
                 </div>
             </div>
         </div>
