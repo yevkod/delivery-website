@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       {menu && (
-        <div className='flex lg:hidden fixed rounded-lg z-[50] top-[119px] right-0 flex-col shadow-md bg-white'>
+        <div className='flex lg:hidden fixed rounded-lg z-[50] top-[90px] right-0 flex-col shadow-md bg-white'>
           <BurgerMenuView setMenu={setMenu} />
         </div>
       )}
