@@ -19,7 +19,7 @@ function App() {
   const [menu, setMenu] = useState(false);
 
   return (
-    <>
+    <div className='overflow-hidden'>
       {menu && (
         <div className='flex lg:hidden fixed rounded-lg z-[50] top-[90px] right-0 flex-col shadow-md bg-white'>
           <BurgerMenuView setMenu={setMenu} />
@@ -37,7 +37,7 @@ function App() {
       <div id='clientsTodayView'><ClientsTodayView /></div>
       <div id='deliverView'><DeliverView /></div>
       <FooterView />
-    </>
+    </div>
   );
 }
 
